@@ -1,5 +1,10 @@
 # connectFour
 Đây là mô phỏng trò chơi connectFour sử dụng mars mips simulator và dùng tool Bitmap Display
+# các vị trí trên bitmap display
+    Tâm quả bóng đâu tiên trong bảng 7x7 là vị trí 272 byte so với base register
+    Tâm của các vị trí tiếp theo trong bảng 7x7 có vị trí tương ứng là 272 + 512*m + 16*n với m là hàng, n là cột tương ứng (m từ 0 đến 6, n từ 0 đến 7)
+    hàng đầu tiên là hàng dùng để trọn vị trí trước khi thả
+    6 hàng tiếp theo là 6 hàng dùng cho trò chơi (bảng kích thước 6x7)
 # Thiết lập thông số của bitmap display
     Unit width in Pixels: 8
     Unit Heigth in Pixels: 9
