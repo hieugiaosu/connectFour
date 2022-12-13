@@ -7,7 +7,7 @@
 	row5: 	      .word 0 0 0 0 0 0 0 
 	row6: 	      .word 0 0 0 0 0 0 0 
 	base: .word 0x10040000
-	again: .asciiz "Do you want to play again? \n Press y for Yes and n for No \n" 
+	again: .asciiz "Do you want to play again? Press y for Yes and n for No \n" 
 	endl: .asciiz "\n"
 	
 .text
